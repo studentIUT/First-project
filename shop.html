@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Next Gen Platform</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Real estate HTML Template">
+	<meta name="keywords" content="real estate, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900%7cRoboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+
+ 
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
+<!-- Header Section -->
+<div style="width: 200px; height: 54px; ">
+<header class="header-section">
+    <a href="index.html" class="site-logo">
+        <img src="лого" alt="">
+    </a>
+    <nav class="header-nav">
+        <ul class="main-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="video.html" class="active">Videos</a></li>
+            <li><a href="dairy.html">Dairy</a></li>
+            <li><a href="#">Education</a>
+                <ul class="sub-menu">
+                    <li><a href="https://quizizz.com/?lng=ru">Quizes</a></li>
+						<li><a href="https://kahoot.com/">Kahoot</a></li>
+						<li><a href="https://t.me/IUTproject_bot">messenger</a></li>
+						<li><a href="shop.html">shop</a></li>
+                </ul>
+            </li>
+            <li><a href="https://t.me/s/NIEP_IUT">News</a></li>
+            <li><a href="contact.html">Books</a></li>
+        </ul>
+        <div class="header-right">
+            <div class="user-panel">
+                <a href="login.html" class="login">Sign in</a>
+                <a href="login.html" class="register">Join us</a>
+                <a href="Ru.html">ㅤru</a>
+            </div>
+        </div>
+    </nav>
+</header></div>
+<!-- Header Section end -->
+<section class="hero-section set-bg" data-setbg="img/shop.png"></section>
+
+<a href="https://t.me/XiaomiUzbekistanOfficial"><img width="100%" height="60%" src="img/xiaomi_banner.jpg" alt=""></a>
+<!-- Intro Section end -->
+<section class="intro-section spad">
+    <div class="container">
+        <div class="section-title">
+            <h1>Bonus Points Exchange Shop</h1>
+
+    <p id="points">Your bonus points: <span id="userPoints">20000 </span><img width="20px" src="img/icon.png" alt="Иконка валюты"></p>
+    <button onclick="openModal()">open form</button>
+    <div id="myModal" style="display: none;">
+        <div class="modal-content">
+            <span id="closeBtn" onclick="closeModal()">&times;</span>
+            <h3>Input data:</h3>
+            <form>
+                <label for="firstName">Name: </label>
+                <input type="text" id="firstName" name="firstName" required><br>
+    
+                <label for="lastName">Surname:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+    
+                <label for="address">Adres: </label>
+                <input type="text" id="address" name="address" required><br>
+    
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </div>
+        </div>
+        <div class="row intro-first">
+            <div class="col-lg-6 order-lg-2">
+                <img width="60%" height="100%" src="img/shop/1.png" alt="">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="about-text">
+                    <h3>Mi Power Bank</h3>
+<p>With this ultra-thin and stylish external battery from Xiaomi, you will always be one step ahead in the matter of charging. The 10000 mAh capacity ensures that your smartphone, tablet or other devices will always be ready for action.
+    <br>Thanks to the high power of 22.5W, charging is fast and efficient, which is especially important in the modern rhythm of life. You can charge multiple devices at the same time thanks to the presence of three ports.
+
+    22.5W two-way fast charging
+</p>
+<form id="exchangeForm">
+    <div class="button-price-btn">
+    <button type="button" onclick="exchangePoints()">10000 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>          ㅤ<img width="20%" height="20%" src="img/mi.png" alt="">
+</div></form> 
+
+                </div>
+            </div>
+        </div>
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+        <div class="row intro-first">
+            <div class="col-lg-6">
+                <img width="100%" height="100%" src="img/shop/2.png" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="about-text">
+                    <h3>Mi Band 7</h3>
+<p>Xiaomi Smart Band 7 is a revolution in the line of smart bracelets from Xiaomi. The device can be worn as a watch, used as a pendant and even attached to sneakers! It supports several mobile games at once and allows you to monitor your health status. The case is waterproof, and due to a large selection of sports modes, you can achieve great success in sports.
+    <p>ㅤ</p><p>ㅤ</p><p>ㅤ</p>
+</p>
+<form id="exchangeForm">
+    <button type="button" onclick="exchangePoints()">10000 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>ㅤ<img width="20%" height="20%" src="img/mi.png" alt="">
+</form>
+
+                </div>
+            </div>
+        </div>
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+        <div class="container">
+        
+        <div class="row intro-first">
+            <div class="col-lg-6 order-lg-2">
+                <img   width="100%" height="100%" src="img/shop/3.png" alt="">            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="about-text">
+                    <h3>Mi True Wireless Earbuds</h3>
+<p>Mi True Wireless Earbuds Basic 2s is a new format that removes all restrictions. The wireless device is as convenient as possible for any task. One earphone weighed only 4.1 g – you won't even feel it in your ear. Comfort is provided by simple means of interaction: one button for any task, the use of a voice assistant, special modes of operation. The Bluetooth 5.0 interface was used for communication. The battery is charged using USB</p>
+<p>ㅤ</p><p>ㅤ</p><p>ㅤ</p>
+<form id="exchangeForm">
+    <button type="button" onclick="exchangePoints1()">5000 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+</form>
+                </div>
+            </div>
+        </div>
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img   width="100%" height="100%" src="img/shop/4.png" alt=""> 
+            </div>
+            <div class="col-lg-6 ">
+                <div class="about-text">
+                    <h3>Mi Power Adapter</h3>
+                    <p>The Xiaomi Power Adapter 33W charger is a network charger with a power output value of 33 watts. This model provides high efficiency of energy recovery of a smartphone, tablet, laptop and other portable devices. Supports the accelerated charging standard. The device can operate in a wide voltage range of 100-240 V, and reliable components guarantee stable operation. The housing is made of fire-resistant and heat-resistant UL94V 0 class material, providing cooling and safe operation. The output current is 6 A.</p>
+                    
+                    <form id="exchangeForm">
+                        <button type="button" onclick="exchangePoints2()"><del>2000</del> 1750 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+
+    <div class="container">
+        
+        <div class="row intro-first">
+            <div class="col-lg-6 order-lg-2">
+                <img   width="60%" height="100%" src="img/shop/5.png" alt="">            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="about-text">
+                    <h3>Mi Thermos</h3>
+<p>Lightweight and convenient compact thermos for walking. The weight of the Xiaomi Mini Mini Mug 350 ml thermocup is only 190 grams, the volume is 350 ml. Ideal for training, walking around the city, work, study.
+    <br>The thermocup is not afraid of shocks and concussions. A practical and durable flask made of food-grade stainless steel is enclosed in a reliable plastic case. Double material ensures reliability and ease of use.</p>                    
+    <p>ㅤ</p>
+    <button type="button" onclick="exchangePoints3()"><del>3000</del> 2500 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+</div>
+            </div>
+        </div>
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img   width="100%" height="100%" src="img/shop/6.png" alt="">  
+            </div>
+            <div class="col-lg-6 ">
+                <div class="about-text">
+                    <h3>Mi Wireless Mouse Lite 2</h3>
+                    <p>The new compact and stylish Xiaomi computer mouse, which is powered by AA batteries. It has smooth curves corresponding to the shape of a person's palm, so you will not get tired even after several hours of continuous work.
+                      <br>  The Xiaomi Wireless Mouse Lite 2 Wireless mouse is equipped with a 2.4Ghz USB receiver, the mouse can connect to the computer in a convenient way for you. In addition, a convenient switch on the base of the mouse allows you to quickly switch between different computers.
+                        <br>The range of the connection is 10 m.</p>
+                        <button type="button" onclick="exchangePoints4()"><del>4000</del> 3750 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+                </div>
+            </div>
+        </div>
+        
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+
+    </div><div class="container">
+        <div class="row intro-first">
+            <div class="col-lg-6 order-lg-2">
+                <img   width="100%" height="100%" src="img/shop/7.png" alt="">  
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="about-text">
+                    <h3>Mi Casual Daypack</h3>
+<p>1) Portable backpack
+
+   <br> A simple laconic Xiaomi Mi Casual Daypack backpack is suitable for every day, as well as for a light trip. All you need is to fit comfortably in a backpack and will not interfere.
+    
+    <br>2) Small size with great features
+    
+  <br>  There is enough internal space to store an umbrella, a water bottle, a wallet, smartphones, keys, a Power Bank and there will still be some space left.</p>
+  <p>ㅤ</p>
+  <button type="button" onclick="exchangePoints1()"><del>6000</del> 5000 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+
+                </div>
+            </div>
+        </div>
+        <hr border=none 	border-top = 0px double="#333"  color="#333" overflow="visible" text-align="center" height="0px"  > 
+
+        <div class="row">
+            <div class="col-lg-6">
+                <img   width="100%" height="100%" src="img/shop/8.png" alt="">              </div>
+            <div class="col-lg-6 ">
+                <div class="about-text">
+                    <h3>Mi Outdoor Bluetooth Speaker Mini</h3>
+                  <p>
+                    Xiaomi Mi Outdoor Bluetooth Speaker Mini is a very compact portable speaker that provides excellent sound in any environment. The device has a volumetric rechargeable battery, a full charge of which is enough for 8 hours of battery life. At the same time, the column can be used in any conditions, since its body is protected from moisture and water according to the IP55 standard.
+                  </p>
+                  <p>ㅤ</p>
+                  <button type="button" onclick="exchangePoints1()"><del>5001 </del> 5000 <img width="20px" src="img/icon.png" alt="Иконка валюты"></button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <script>
+        function exchangePoints() {
+            var userPointsElement = document.getElementById('userPoints');
+            var userPoints = parseInt(userPointsElement.textContent);
+            var exchangeAmount = 10000;
+            if (userPoints >= exchangeAmount) {
+                // Ваш код для отправки запроса на сервер и обмена баллов
+
+                // Пример: обновление баланса пользователя
+                userPointsElement.textContent = userPoints - exchangeAmount;
+                alert('Points have been successfully exchanged!');
+            } else {
+                alert('You do not have enough points to exchange!');
+            }
+        }
+		function exchangePoints1() {
+            // Ваш код для отправки запроса на сервер и обмена баллов
+
+            // Пример: обновление баланса пользователя
+            var userPoints = document.getElementById('userPoints');
+            userPoints.textContent = parseInt(userPoints.textContent) - 5000;
+            alert('Points have been successfully exchanged!');
+        }
+		function exchangePoints2() {
+            // Ваш код для отправки запроса на сервер и обмена баллов
+
+            // Пример: обновление баланса пользователя
+            var userPoints = document.getElementById('userPoints');
+            userPoints.textContent = parseInt(userPoints.textContent) - 1750;
+            alert('Points have been successfully exchanged!');
+        }
+        function exchangePoints3() {
+            // Ваш код для отправки запроса на сервер и обмена баллов
+
+            // Пример: обновление баланса пользователя
+            var userPoints = document.getElementById('userPoints');
+            userPoints.textContent = parseInt(userPoints.textContent) - 2500;
+            alert('Points have been successfully exchanged!');
+
+        }
+        function exchangePoints4() {
+            // Ваш код для отправки запроса на сервер и обмена баллов
+
+            // Пример: обновление баланса пользователя
+            var userPoints = document.getElementById('userPoints');
+            userPoints.textContent = parseInt(userPoints.textContent) -3750;
+            alert('Points have been successfully exchanged!');
+        }
+    </script>    
+    <script>
+        
+    
+        function closeModal() {
+            document.getElementById('myModal').style.display = 'none';
+        }
+    function openModal() {
+            document.getElementById('myModal').style.display = 'block';
+        }
+        window.onclick = function(event) {
+            if (event.target === document.getElementById('myModal')) {
+                closeModal();
+            }
+        }
+    </script>
+<!--====== Javascripts & Jquery ======-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
